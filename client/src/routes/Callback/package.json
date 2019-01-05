@@ -1,0 +1,6 @@
+{
+  "name": "callback-container",
+  "version": "1.0.0",
+  "private": true,
+  "main": "./CallbackContainer.js"
+}

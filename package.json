@@ -1,0 +1,15 @@
+{
+  "name": "react-test-spotify",
+  "version": "1.0.0",
+  "description": "November Five react test project",
+  "main": "index.js",
+  "scripts": {
+    "setup": "yarn install:server && yarn install:client",
+    "install:server": "cd server && yarn install",
+    "install:client": "cd client && yarn install",
+    "start:server": "cd server/authorization_code && node app",
+    "start:client": "cd client && yarn start"
+  },
+  "author": "November Five",
+  "license": "ISC"
+}
